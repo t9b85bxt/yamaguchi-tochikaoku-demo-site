@@ -1,0 +1,52 @@
+# === 依存関係・ビルド成果物 ===
+node_modules/
+dist/
+build/
+out/
+.next/
+.cache/
+.parcel-cache/
+.turbo/
+
+# === 認証情報・環境変数（絶対に公開しない） ===
+.env
+.env.*
+!.env.example
+.dev.vars
+.wrangler/
+wrangler.toml.bak
+*.key
+*.pem
+*.p12
+*_rsa
+id_*
+.npmrc
+.netrc
+secrets*.json
+credentials*.json
+
+# === ログ・一時ファイル ===
+*.log
+npm-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*~
+
+# === エディタ / ツール設定 ===
+.claude/
+.vscode/
+.idea/
+
+# === 制作用の内部資料（公開リポジトリには含めない） ===
+/リサーチ_*.md
+/01_hero.png
+/02_problems.png
+/03_services.png
+/04_process.png
+/05_about.png
+/06_cases_faq.png
+/07_access.png
+/08_contact_footer.png
